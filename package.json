@@ -1,0 +1,54 @@
+{
+  "name": "@praxent/praxent-validate-route",
+  "version": "1.0.1",
+  "description": "Validate token and required params",
+  "main": "index.js",
+  "engines": {
+    "node": "10.x.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"need tests\""
+  },
+  "contributors": [
+    "ryan.ostrom@praxent.com"
+  ],
+  "devDependencies": {
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "7.4.4",
+    "@babel/polyfill": "7.4.4",
+    "@babel/preset-env": "7.4.4",
+    "@babel/preset-flow": "7.0.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^5.15.3",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-import-resolver-webpack": "^0.11.0",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "flow-bin": "^0.95.1",
+    "flow-typed": "^2.5.1",
+    "husky": "^3.0.0",
+    "jest": "^24.8.0",
+    "lint-staged": "8.1.5",
+    "prettier": "^1.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praxent/praxent-crm.git"
+  },
+  "keywords": [
+    "nodejs",
+    "route",
+    "validation",
+    "access"
+  ],
+  "author": "Ryan Ostrom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praxent/praxent-validate-route/issues"
+  },
+  "homepage": "https://github.com/praxent/praxent-validate-route#readme"
+}

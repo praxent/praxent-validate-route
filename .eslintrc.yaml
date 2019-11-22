@@ -1,0 +1,24 @@
+---
+  extends:
+    - eslint:recommended
+    - ./eslint/flow.yml
+    - ./eslint/import.yml
+    - ./eslint/node.yml
+    - prettier
+    - prettier/flowtype
+    - prettier/react
+  parser: babel-eslint
+  plugins:
+    - prettier
+  env:
+    es6: true
+    node: true
+    browser: true
+    jest: true
+  globals:
+    mount: true
+    shallow: true
+    enableDeepSnapshots: true
+    ruleHelpers: true
+  rules:
+    prettier/prettier: error

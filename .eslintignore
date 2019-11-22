@@ -1,0 +1,6 @@
+services/**/migrations/
+node_modules
+dist
+flow-typed
+scripts/boilerplate-generator/base-template
+modules/*

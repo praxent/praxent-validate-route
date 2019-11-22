@@ -1,0 +1,43 @@
+# Import Linting config
+---
+  plugins:
+    - import
+  settings:
+    import/resolver:
+      webpack: true
+      node:
+        moduleDirectory:
+          - node_modules
+          - flow-typed
+    import/external-module-folders:
+      - node_modules
+      - flow-typed
+  rules:
+    import/no-unresolved:
+      - error
+      - commonjs: true
+    import/no-useless-path-segments: error
+    import/export: error
+    import/no-deprecated: warn
+    import/no-extraneous-dependencies: error
+    import/no-mutable-exports: error
+    import/first:
+      - error
+      - absolute-first: off
+    import/no-duplicates: error
+    import/extensions:
+      - error
+      - always
+      - js: never
+    import/order:
+      - error
+      - newlines-between: always-and-inside-groups
+        groups:
+          - - builtin
+            - external
+          - - parent
+            - sibling
+          - index
+    import/newline-after-import: error
+    import/max-dependencies: warn
+    import/no-default-export: error
