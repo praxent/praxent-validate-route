@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/praxent/praxent-crm.git"
+    "url": "git+https://github.com/praxent/praxent-validate-route.git"
   },
   "keywords": [
     "nodejs",
