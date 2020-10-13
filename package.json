@@ -1,6 +1,6 @@
 {
   "name": "@praxent/praxent-validate-route",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Validate token and required params",
   "main": "index.js",
   "scripts": {
